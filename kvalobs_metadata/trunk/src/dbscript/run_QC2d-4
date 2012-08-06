@@ -1,0 +1,3 @@
+#! /bin/sh
+
+$LIBEXECDIR/dbQC2d-4 ${1} 262 QC2d-4-262metadata QC2d-4-262
