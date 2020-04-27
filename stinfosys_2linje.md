@@ -253,10 +253,10 @@ Nedenfor er det en kort gjennomgang over å flytte databasen til ny maskin/bruke
 ## Installasjonsprosedyrer
 ### Installasjon
 #### For å installere webapplikasjonen:
-[Installasjon](installasjon)
+[Installasjon](installasjon.md)
 
 #### For å installere databasen:
-[Database](database)
+[Database](database.md)
 
 #### Vi trenger en backup-server som er i et annet datarom enn databasen, for å installere denne:
 [Backup](backup)
