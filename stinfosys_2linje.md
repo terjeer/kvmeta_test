@@ -6,7 +6,7 @@
 
 ![Imagedesc](http://stinfosys/images/model.png)
 
-[<img src="http://stinfosys/images/model.png">](http://stinfosys/)
+[<img src="http://stinfosys/images/model.png">](http://stinfosys/images/model.png)
 
 ```mermaid
 graph TD;
