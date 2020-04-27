@@ -6,6 +6,8 @@
 
 ![Imagedesc](http://stinfosys/images/model.png)
 
+[<img src="http://stinfosys/images/model.png">](http://stinfosys/)
+
 ```mermaid
 graph TD;
   melding-->stasjon;
