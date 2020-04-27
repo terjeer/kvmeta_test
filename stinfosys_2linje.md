@@ -4,7 +4,7 @@
 
 ### Datamodell
 
-[<img src="http://stinfosys/images/model.png">](http://stinfosys/)
+[<img src="https://stinfosys/images/model.png">](https://stinfosys/)
 
 ```mermaid
 graph TD;
