@@ -143,7 +143,7 @@ pg_ctlcluster 9.6 main stop
 
 #### Opprette tom stinfosys database
 
-les [Database](database)
+les [Database](database.md)
 
 #### Førstehjelp ved korrupt database
 
@@ -155,7 +155,7 @@ $ ps --user=stinfosys | grep postmaster
 $ kill -9 "tall lengst til venstre"
 ```
 Nå kan en prøve å starte databasen. Dersom dette ikke går står en ovenfor en mye mer omfattende oppgave:
-Databaseclusteret må installeres på nytt, les [Database](database).
+Databaseclusteret må installeres på nytt, les [Database](database.md).
 Ellers så er det bare å fortsette nedenfor:
 ```
 $ dropdb stinfosys
@@ -201,7 +201,7 @@ MAILTO=«oystein.lie@met.no,terje.reite@met.no»
 Dette består av to typer aktiviteter:
 
   * følge med på innkommende advarsler på mail, se nedenfor
-  * sette opp filteret på sin mailklient til å kunne filtrere mail i et warningfilter som en sjekker regelmessig, denne aktiviteten er beskrevet under [Database](database).
+  * sette opp filteret på sin mailklient til å kunne filtrere mail i et warningfilter som en sjekker regelmessig, denne aktiviteten er beskrevet under [Database](database.md).
 
 Hvilke advarsler gis:
 
@@ -214,7 +214,7 @@ Hvilke advarsler gis:
 ### Opprydding når disken har gått full eller krasjet
 
 Er det fullstenfig diskkrasj må en installere systemet på nytt, les 
-[Database](database).
+[Database](database.md).
 
 Har disken gått full har en 4 valg:
 
@@ -223,10 +223,10 @@ Har disken gått full har en 4 valg:
 
 men det kan gi verdifullt pusterom
 
-  * flytte hele systemet til ny maskin/bruker, les [Database](database)
+  * flytte hele systemet til ny maskin/bruker, les [Database](database.md)
   * flytte databasen til ny maskin/bruker, se nedenfor
 
-Nedenfor er det en kort gjennomgang over å flytte databasen til ny maskin/bruker; utfør følgende punkter under [Database](database):
+Nedenfor er det en kort gjennomgang over å flytte databasen til ny maskin/bruker; utfør følgende punkter under [Database](database.md):
 
   * Forutsetninger som må være tilstede før en genererer databasen
   * Sjekke ut kildekoden fra versjonskontrollsystemet
